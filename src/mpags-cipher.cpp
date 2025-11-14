@@ -8,6 +8,7 @@ bool processCommandLine(const std::vector<std::string>& cmdLineArgs,
                         std::string& inputFile, std::string& outputFile)
 {
     /* Process command line arguments
+    
     const std::vector<std::string>& cmdLineArgs: Vector of command line arguments
     bool& helpRequested: Flag set to true if help requested
     bool& versionRequested: Flag set to true if version requested
